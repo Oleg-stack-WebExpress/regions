@@ -1,0 +1,20 @@
+/*
+Theme Name: cms
+Author: Я сам
+Description: Описание темы
+*/
+
+body,
+html {
+	height: 100%;
+}
+
+.navbar-nav .active {
+	font-weight: bold;
+}
+
+.blog-widget {
+	background: #f89e9e;
+	border: 1px solid rgb(170, 192, 250);
+	padding: 15px;
+}
