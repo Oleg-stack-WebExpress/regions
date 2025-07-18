@@ -1,9 +1,3 @@
-/*
-Theme Name: cms
-Author: Я сам
-Description: Описание темы
-*/
-
 body,
 html {
 	height: 100%;
@@ -13,8 +7,38 @@ html {
 	font-weight: bold;
 }
 
+.blog-widget .wp-block-search__button{
+	background: #f1d1fc;
+	border-radius: 5px;
+}
+
+.blog-widget .wp-block-search__input{
+	border-radius: 5px;
+}
+
 .blog-widget {
 	background: #f89e9e;
 	border: 1px solid rgb(170, 192, 250);
 	padding: 15px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.blog-widget ul li {
+	list-style: none;
+	font-weight: bold;
+}
+
+.blog-widget a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+}
+
+img {
+	width: 300px;
+	height: 200px;
+	object-fit: contain;
 }

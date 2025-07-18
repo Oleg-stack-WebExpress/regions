@@ -11,3 +11,4 @@ register_sidebar([
     'before_title' => '</div class="blog-widget_title">',
     'after_title' => '</div>',
 ]);
+
